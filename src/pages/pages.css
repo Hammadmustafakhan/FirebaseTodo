@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+*{
+    margin: 0;padding:0;box-sizing: border-box;
+}
+
+
+.main-wrraper{
+    display: flex;
+    background-color: rgb(171, 143, 184);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main-wrraper>h1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Carter One', cursive;
+    margin: 10px 0px;
+}
+
+.main-contanier{
+    display: flex;
+    align-items: center ;
+    background-color: white;
+/* width: 100%; */
+padding: 30px;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.formcontanier{
+    /* width: 50%; */
+    padding: 30px;
+}
+.login-img>img{
+    width: 275px;
+    height: 300px;
+    border-radius: 30px ;
+    
+
+}
+.formcontanier>form>input{
+    margin: 10px 0px;
+    /* width: 100%; */
+    padding: 5px 8px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn-center{
+    display: flex;
+    justify-content: center;
+}
+.btn-center>button{
+    margin: 10px 0px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(82, 96, 223);
+    color: #fff;
+    cursor: pointer;
+}
+
+.formcontanier>h1{
+    text-align: center;
+    margin: 10px 0px;
+}
+.formcontanier>form>p{
+    font-size: 12px;
+}
+
+.btn-center>button:hover{
+    background-color: rgb(171, 143, 184);
+
+}
+body{
+    background-color: rgb(171, 143, 184);
+}
+
+.btn-child{
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff;
+}
+nav{
+    background-color: rgb(129, 49, 131);
+    padding: 10px 12px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.logo>h1{
+    font-family: 'Carter One', cursive;
+    color: #fff;
+
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right>button{
+    padding: 8px 12px;
+    margin: 0px 10px;
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  
+}
+.right>button:hover{
+    background-color: rgb(171, 143, 184);
+
+    color: #fff;
+
+}
+.right>button:disabled{
+    pointer-events: none;
+    font-family: 'Carter One';
+}
+.input-form{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
+}
+.input-form>h1{
+    margin: 20px 0px;
+    color: #fff;
+}
+.form-wrapper>form>input{
+    border-radius: 10px;
+    border: none;
+    padding: 8px 10px;
+outline: none;
+}
+.add-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.form-wrapper>form>.add-btn>button{
+    padding: 8px 12px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.form-wrapper>form>button:hover{
+    background-color: rgb(129, 49, 131);
+    color: #fff;
+
+}
+.form-wrapper>form>button:hover:disabled{
+    pointer-events: none;
+}
+.from-error{
+    color: red;
+  }
+  .spin-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .list-contanier{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+  }
+  .list-contanier>li{
+    background-color: white;
+    width:50%;
+    list-style: none;
+    padding: 8px 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    word-break: break-all;
+  }
+  .buttoncontanier{
+    display: flex;
+    justify-content: center;
+    }
+    .addButton{
+        padding: 10px  15px;
+        background-color: #ffffff ;
+        border: none;
+        border-radius: 10px;
+        color: #000;
+        cursor: pointer;
+    }
+    .addButton:hover{
+        background-color: #f1f0f0;
+    }
+  .text-contanier{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .delete{
+    font-size: 22px;
+    cursor: pointer;
+    color: rgb(236, 87, 87);
+    
+}
+.edit{
+    color: black;
+    cursor: pointer;
+    font-size: 22px;
+    margin: 0px 10px;
+}
+.edit:hover{
+    color: #2364aa;
+}
+.delete:hover{
+    color: green;
+}
+
+.btn-child:disabled{
+    opacity: 0.5;
+    pointer-events: none;
+}
+.remove-center{
+    display: flex;
+    justify-content: center;
+  
+}
+.remove-center>button{
+     padding: 10px 12px;
+     margin: 10px 0px ;
+     border-radius: 10px;
+     border: none;
+
+}
+.remove-center>button:hover{
+    background-color: #c7c7c7;
+}
+
+.cancel>button{
+    margin: 0px 10px;
+}
+.button-contanier2{
+    display: flex;
+    justify-content: center;
+    }
+
+
+@media only screen and (max-width: 750px){
+    .login-img{
+        display: none;
+    }
+    .main-contanier{
+        width: 90%;
+    }
+  .main-wrraper{
+    background-image: url('../assest/bdTodo.jpg');
+  }
+ form>input{
+width: 100%;
+  }
+  .button-contanier2{
+    flex-direction: column;
+    align-items: center;
+  }   
+ 
+}
+@media only screen and (max-width: 400px){
+    
+    .main-contanier{
+        width: 80%;
+        padding: 0%;
+    }
+    .formcontanier>form>p{
+        font-size: 11px;
+    }
+    .main-wrraper{
+        width: 100%;
+    }
+.right{
+    display: flex;
+}
+    .logo>h1{
+        font-size: 20px;
+    }
+    .right>button:hover{
+    background-color: #fff;
+    color: black;
+    }
+}
